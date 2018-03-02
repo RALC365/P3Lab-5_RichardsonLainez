@@ -32,6 +32,7 @@ int main(){
 
 			case 3:
 					listaEspera.resize(0);
+					cout << "Se han eliminado los elementos de la lista" << endl;
 				break;
 
 			case 4:
@@ -39,7 +40,7 @@ int main(){
 				break;
 
 			case 5:
-					cout << "Este método listará los elementos del zoologico" << endl;
+					//cout << "Este método listará los elementos del zoologico" << endl;
 					listarAnimales();
 				break;			
 
@@ -63,7 +64,7 @@ int menu(){
 	do{
 		cout << "--Menú--" << endl;
 		cout << "1.- Agregar Animales" << endl;
-		cout << "2.- Agregar Animales a listas separadas" << endl;
+		cout << "2.- Agregar Animales a listas del zoologico" << endl;
 		cout << "3.- Eliminar todos los Animales de las lista de Espera" << endl;
 		cout << "4.- Eliminar un animal en especifico" << endl;
 		cout << "5.- Listar animales de zoologicos" << endl;
